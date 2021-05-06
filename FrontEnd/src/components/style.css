@@ -1,0 +1,59 @@
+.header__container {
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+
+.header__separador {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__username {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+}
+
+.header__botao {
+  margin-left: 10px;
+}
+
+.buscar {
+  padding: 10px 0;
+  width: 200px;
+}
+
+.largura__id {
+  width: 75px;
+}
+
+.largura__acoes {
+  width: 125px;
+  max-width: 200px;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cursor:hover {
+  cursor: pointer;
+}
+
+.botoes__margem {
+  margin: 0px 5px;
+}
+
+.centralizar {
+  text-align: center;
+}
